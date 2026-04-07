@@ -112,5 +112,9 @@ FROM global_supply_chain_risk
 GROUP BY fuel_band
 ORDER BY fuel_band DESC;
 
-SELECT shipment_date FROM global_supply_chain_risk
-ORDER BY shipment_date DESC
+-- Q11: Which year had the most disruptions?
+SELECT EXTRACT (YEAR FROM shipment_date) AS shipment_year,
+    COUNT(*) FILTER (WHERE disruption_occurred = 1) AS disruptions
+FROM global_supply_chain_risk
+GROUP BY shipment_year
+ORDER BY disruptions DESC;
