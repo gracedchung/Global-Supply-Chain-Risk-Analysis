@@ -1,26 +1,46 @@
 # Global Supply Chain Risk Analysis 2024-2025
 ## Project Description:
-Global trade over the years has faced unprecedented volatility. From shifting geopolitical alliances to extreme weather patterns driven by climate change, logistics professionals are struggling to maintain "just-in-time" efficiency. I pulled a dataset consisitng of 5000 international shipmentsGlobal Supply Chain is an expansive industry, from getting things to Point A to Point B. With a variety of different shipping routes, disruptions are inevitably likely to happen, but there are several different factors that could contribute to the likelihood of disruptions in different ways. Disuprtions lead to longer lead times, and longer lead times may lead to delays. It disrupts the flow of supply chain, can cause economic burden, and decreases delivery performance. Acknowledging certain risk factors could help take the necessray premeasure needed to optimize route shipments and maintain consistent supply chain operations. 
+Global trade has become increasingly volatile due to shifting geopolitical dynamics and climate-driven weather disruptions. These uncertainties challenge logistics professionals striving to maintain efficient, “just-in-time” supply chains.
+
+This project analyzes a dataset of 5,000 international shipments to understand how various risk factors impact supply chain performance. While disruptions are often unavoidable, they can significantly increase lead times, delay deliveries, and reduce overall operational efficiency.
+
+By identifying key drivers of disruption, this analysis aims to support more informed decision-making and improve supply chain resilience through proactive planning and route optimization.
 ### Objective:
-It would be difficult to completely avoid disruptions, but being aware can help taken certain premeasure to prevent delays or expect them. Are there certain factors that directly correlate to disruptions more than others? 
+While disruptions cannot be entirely eliminated, they can be better anticipated and managed.
+
+This project seeks to answer:
+
+Which factors most strongly contribute to shipment disruptions?
+How do disruptions impact lead time and delivery performance?
+How can these insights be used to improve routing and operational decisions?
 ### Methodology:
-1. SQL query demonstrating EDA(Exploratory Data Analysis) to understand data structure, check for missing values, and analyze summary statistics
-2. SQL analysis answering core business questions on which factors contribute to disruption to most
-3. Power BI dashboard displaying key metrics and findings
-4. Machine learning model using Python and feature engineering featured to predict factors that would more likely cause disruptuons
+1. SQL (Exploratory Data Analysis):
+Assessed data quality, structure, and missing values
+Generated summary statistics and initial trends
+2. SQL (Analytical Querying):
+Answered key business questions related to disruption drivers
+Evaluated relationships between transport mode, routes, and risk factors
+3. Power BI Dashboard:
+Visualized key metrics (disruption rate, lead time, route performance)
+Built interactive dashboards for stakeholder insights
+4. Machine Learning (Python):
+Applied feature engineering to key variables (geopolitical risk, weather, routes)
+Developed a predictive model to identify high-risk shipments
 ## Skills:
 SQL: Case, Aggregate Functions
 Power BI: DAX Writing, calculated columns, data modeling, data visualization
 Python: Pandas, NumPy, Scikit-learn
 ## Key Insights: 
 1. Transportation Mode (Transport, Product, Weather Condition)
-  Which transport mode carried a higher disruption rate?
-  Which product category carried a higher disruption rate?
-  Which weather condition carried a higher disruption rate?
-2. Region/Shipment Routes
-  Ports that served as key bottlenecks?
-  How does the geopolitical risk score affect disurption rate?
-3. Disruption Rate vs. Avg Lead Days
+ Disruption rates vary significantly by transport mode
+ Air freight shows higher disruption frequency, while sea freight has longer lead times
+ Certain product categories and weather conditions are more prone to disruption
+2. Region and Regional Risk
+  Specific ports and routes act as bottlenecks
+  Higher geopolitical risk scores correlate with increased disruption rates
+3. Lead Time Impact
+  Increased disruptions are associated with longer average lead times
+  Inefficiencies vary by route and transport mode
 
 ## Suggestions & Optimization
 ### Routing Optimization
