@@ -15,37 +15,37 @@ How do disruptions impact lead time and delivery performance?
 How can these insights be used to improve routing and operational decisions?
 ### Methodology:
 1. SQL (Exploratory Data Analysis):
-Assessed data quality, structure, and missing values
-Generated summary statistics and initial trends
+-Assessed data quality, structure, and missing values
+-Generated summary statistics and initial trends
 2. SQL (Analytical Querying):
-Answered key business questions related to disruption drivers
-Evaluated relationships between transport mode, routes, and risk factors
+-Answered key business questions related to disruption drivers
+-Evaluated relationships between transport mode, routes, and risk factors
 3. Power BI Dashboard:
-Visualized key metrics (disruption rate, lead time, route performance)
-Built interactive dashboards for stakeholder insights
+-Visualized key metrics (disruption rate, lead time, route performance)
+-Built interactive dashboards for stakeholder insights
 4. Machine Learning (Python):
-Applied feature engineering to key variables (geopolitical risk, weather, routes)
-Developed a predictive model to identify high-risk shipments
+-Applied feature engineering to key variables (geopolitical risk, weather, routes)
+-Developed a predictive model to identify high-risk shipments
 ## Skills:
 SQL: Case, Aggregate Functions
 Power BI: DAX Writing, calculated columns, data modeling, data visualization
 Python: Pandas, NumPy, Scikit-learn
 ## Key Insights: 
 1. Transportation Mode (Transport, Product, Weather Condition)
-  Disruption rates vary significantly by transport mode
-  Air freight shows higher disruption frequency, while sea freight has longer lead times
-  Certain product categories and weather conditions are more prone to disruption
+-Disruption rates vary significantly by transport mode
+-Air freight shows higher disruption frequency, while sea freight has longer lead times
+-Certain product categories and weather conditions are more prone to disruption
 3. Region and Regional Risk
-   Specific ports and routes act as bottlenecks
-   Higher geopolitical risk scores correlate with increased disruption rates
+-Specific ports and routes act as bottlenecks
+-Higher geopolitical risk scores correlate with increased disruption rates
 4. Lead Time Impact
-   Increased disruptions are associated with longer average lead times
-   Inefficiencies vary by route and transport mode
+-Increased disruptions are associated with longer average lead times
+-Inefficiencies vary by route and transport mode
 
 ## Suggestions & Optimization
 ### Routing Optimization
-  Optimize a route model that prioritizes geopolitical risks over shortest transit time.
+-Optimize a route model that prioritizes geopolitical risks over shortest transit time.
 ### Transport Mode Optimization
-Use Air for urgent shipments and Sea freight for slow non-urgent shipments. 
+-Use Air for urgent shipments and Sea freight for slow non-urgent shipments. 
 ### Predictive Risk Scoring
-  Creating a risk scoring model based on geopolitical score, weather, and shipment routes can promote proactivity. 
+-Creating a risk scoring model based on geopolitical score, weather, and shipment routes can promote proactivity. 
