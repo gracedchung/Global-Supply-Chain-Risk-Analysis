@@ -15,17 +15,17 @@ How do disruptions impact lead time and delivery performance?
 How can these insights be used to improve routing and operational decisions?
 ### Methodology:
 1. SQL (Exploratory Data Analysis):
--Assessed data quality, structure, and missing values
--Generated summary statistics and initial trends
+-  Assessed data quality, structure, and missing values
+-  Generated summary statistics and initial trends
 2. SQL (Analytical Querying):
--Answered key business questions related to disruption drivers
--Evaluated relationships between transport mode, routes, and risk factors
+-  Answered key business questions related to disruption drivers
+-  Evaluated relationships between transport mode, routes, and risk factors
 3. Power BI Dashboard:
--Visualized key metrics (disruption rate, lead time, route performance)
--Built interactive dashboards for stakeholder insights
+-  Visualized key metrics (disruption rate, lead time, route performance)
+-  Built interactive dashboards for stakeholder insights
 4. Machine Learning (Python):
--Applied feature engineering to key variables (geopolitical risk, weather, routes)
--Developed a predictive model to identify high-risk shipments
+-  Applied feature engineering to key variables (geopolitical risk, weather, routes)
+-  Developed a predictive model to identify high-risk shipments
 ## Skills:
 SQL: Case, Aggregate Functions
 Power BI: DAX Writing, calculated columns, data modeling, data visualization
